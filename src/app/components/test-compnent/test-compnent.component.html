@@ -1,1 +1,5 @@
 <p>test-compnent works!</p>
+<ng-container *ngFor="let item of input">
+    <span>{{item}}</span>
+</ng-container>
+<button (click)="emit()">emit</button>
